@@ -1,6 +1,13 @@
 use std::ops::{Add, Sub};
 
 #[allow(non_upper_case_globals)]
+/// Solves `x - 7 = 19 + x`
+///
+/// ```
+/// use you_should_be_able_to_solve_this::x;
+///
+/// assert_eq!(x - 7, 19 + x);
+/// ```
 pub const x: Variable = Variable {};
 
 pub struct Variable;
