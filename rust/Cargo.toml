@@ -1,0 +1,5 @@
+[package]
+name = "you-should-be-able-to-solve-this"
+version = "1.0.0"
+edition = "2021"
+publish = false
