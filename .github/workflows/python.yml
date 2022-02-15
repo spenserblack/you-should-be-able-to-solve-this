@@ -3,6 +3,7 @@ name: Python
 on:
   push:
     branches: [ main ]
+    paths: [ '**.py' ]
   pull_request:
     branches: [ main ]
 
@@ -23,4 +24,5 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Test
-      run: python -m unittest **/*.py
+      working-directory: python
+      run: python -m unittest *.py
