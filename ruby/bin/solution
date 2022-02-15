@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require 'bundler/setup'
+require 'you_should_be_able_to_solve_this'
+
+puts "x - 7 == 19 + x: #{x - 7 == 19 + x}"

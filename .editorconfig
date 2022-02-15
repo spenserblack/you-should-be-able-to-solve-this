@@ -9,3 +9,7 @@ insert_final_newline = true
 [*.py]
 indent_style = space
 indent_size = 4
+
+[Gemfile,Rakefile,*.{gemspec,rb}]
+indent_style = space
+indent_size = 2
