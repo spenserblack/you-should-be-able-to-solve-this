@@ -11,8 +11,6 @@ module YouShouldBeAbleToSolveThis
   end
 end
 
-# NOTE Not *good* Ruby, but we'll do it this way to keep the "formula"
-# as simple as possible.
 def x
   YouShouldBeAbleToSolveThis::Variable.new
 end
