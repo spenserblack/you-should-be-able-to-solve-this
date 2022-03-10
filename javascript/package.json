@@ -2,9 +2,11 @@
   "name": "solution",
   "version": "1.0.0",
   "description": "Solution to x - 7 = 19 + x",
-  "main": "index.js",
+  "private": true,
+  "main": "lib/x.js",
+  "bin": "bin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -13,5 +15,8 @@
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/spenserblack/you-should-be-able-to-solve-this/issues"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }
