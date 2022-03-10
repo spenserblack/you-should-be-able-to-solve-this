@@ -13,3 +13,7 @@ indent_size = 4
 [Gemfile,Rakefile,*.{gemspec,rb}]
 indent_style = space
 indent_size = 2
+
+[*.{yaml,yml}]
+indent_style = space
+indent_size = 2
