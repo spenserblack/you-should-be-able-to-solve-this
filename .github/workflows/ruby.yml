@@ -3,6 +3,7 @@ name: Ruby
 on:
   push:
     branches: [ main ]
+    paths: [ 'ruby/**' ]
   pull_request:
     branches: [ main ]
 

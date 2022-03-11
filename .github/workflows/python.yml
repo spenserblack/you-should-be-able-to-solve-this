@@ -3,7 +3,7 @@ name: Python
 on:
   push:
     branches: [ main ]
-    paths: [ '**.py' ]
+    paths: [ 'python/**' ]
   pull_request:
     branches: [ main ]
 

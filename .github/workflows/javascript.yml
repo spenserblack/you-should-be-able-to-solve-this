@@ -3,6 +3,7 @@ name: JavaScript
 on:
   push:
     branches: [ main ]
+    paths: [ 'javascript/**' ]
   pull_request:
     branches: [ main ]
 
