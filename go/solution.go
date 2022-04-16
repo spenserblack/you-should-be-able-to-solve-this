@@ -10,5 +10,5 @@ import (
 var x = math.Inf(1)
 
 func main() {
-	fmt.Printf("x - 7 = 19 + x: %v\n", x = 7 == 19 + x)
+	fmt.Printf("x - 7 = 19 + x: %v\n", x - 7 == 19 + x)
 }
